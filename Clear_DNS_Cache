@@ -1,0 +1,20 @@
+To Clear DNS cache from different Browsers:
+
+1) Mozila:
+      about:networking#dns
+
+2) Chrome:
+      chrome://net-internals/#dns
+     
+3) Windows:
+  Open cmd and type : ipconfig /flushdns
+  
+  
+4) Linux Distributions:
+        sudo /etc/init.d/nscd restart
+        
+5) Ubuntu:
+      sudo service network-manager restart
+      
+6) Edge:
+         edge://net-internals/#dns
