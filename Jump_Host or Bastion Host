@@ -1,0 +1,25 @@
+================ Jump Host/Bastion Host ==========
+
+A bastion host or jump box is a server exposed on a public network whose purpose is to withstand malicious attacks or threats. Every individual or organization demands a source where they can share their data more securely. Marcus J. Ranum, a cybersecurity researcher, highlighted the concept of bastion host in 1990. As per his article, he stated bastion hosts are crucial for network security. The server will conduct regular audits and act as a guard to protect your vital data from threats.
+
+ 
+
+To state it the other way, a Bastion host acts like a bridge that stands between the users and private network to tighten access to your resources, instances, gateways, etc. Once the connectivity is established, the server allows users to access these instances in private subnets via SSH or RDP.
+
+ 
+
+There are various methods to connect with virtual private cloud (VPC) with or without an external IP address. Bastion Host is one of them that helps create SSH connections without an external IP address. The role of the bastion host is to provide users with private network access from an outside network, like the Internet, and minimize the chances of threat penetrations into the walls of a private network.
+
+ 
+
+There are several benefits of running bastion hosts, but there are disadvantages too. These servers may add more load to your administrator with continuous running, monitoring, and patching. Also, if you have to run a large user base, then you might require more bastion hosts. Thus, more expensive hosting. Also, if any hacker founds out the auth bypass or remote code execution for OpenSSH, he will get extremely lucky in no time.
+
+
+
+== 
+  https://cloudinfrastructureservices.co.uk/what-is-a-bastion-host-jump-box/#:~:text=Also%2C%20known%20as%20the%20Jump,comprise%20only%20internal%20IP%20addresses.
+  
+  
+  
+  =========== GCP IAP===
+  https://cloud.google.com/iap/docs/concepts-overview
