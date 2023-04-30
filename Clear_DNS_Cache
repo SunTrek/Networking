@@ -19,4 +19,6 @@ To Clear DNS cache from different Browsers:
       
 6) Edge:
          edge://net-internals/#dns
+7) Opera:
+      opera://net-internals/#dns
          
